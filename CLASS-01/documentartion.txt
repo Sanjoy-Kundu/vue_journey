@@ -1,0 +1,13 @@
+VUE INSTALL:::::::
+...........website vite...........
+code run also vs code command line 
+steps: 
+1. npm create vite (project name)p2
+2. next select vue
+3. next select javascript
+4. cd folderName p2
+5. npm install 
+6. npm run dev
+7. click this link and finally open my vite + vue project
+.......................................................
+
