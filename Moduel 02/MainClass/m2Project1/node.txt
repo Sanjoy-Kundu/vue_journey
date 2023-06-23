@@ -1,0 +1,90 @@
+:::::::::::::::::::::::BASIC STRACTURE START::::::::::::::::::::::::::::
+
+
+1. Project Install er jonno npm create vite m2Project1 Project create korlam 
+	a. vue select korlam
+	b. javascript select korlam
+	c. cd diye project er moddey dhuklam 
+	d. npm install or npm i diye porject e node_modules niye aslam 
+	e. npm run dev diye project local server e open korlam
+
+2. Project ti server e deploy korar jonno amra  
+	a. npm run build dilam tahole amar project e dist name akta folder asbe 
+
+3.Ami jodi amr project preview korte cai tahole ami 
+	a. npm run preview dile amra preview korte parbo 
+
+4. amra jokhon server e deploy korbo tokhon amra dist folder ta kei deploy korbo jerokom netlify te kortam 
+
+
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Project Stracture bujar jonno amra nich theke bujbo kmn 
+1. vite.config.js ======> ai folder e amra kono kaj nei karon aita ninitiallly toyri hoyeche 
+
+2. Readme.md name akta file ace  Github e push korle amra je readme file dekte pai seita  aita vite autometically toyri kore diyeche
+
+3. Package-lock.json ==> aita autometed genarated akta file amra node je bisoy gulo install koreci segula kicu defination + path niyei lock.json toyri hoyece aita niye kono mathabatha nei 
+
+4. Package.json ===> package.json e moddey amra jejisish gulo thake 
+	i. project er name 
+	ii. project er version 
+	iii. ki commnad diye run hobe, preview hobe build hobe seigula thake script er moddey 
+	iv. package gulo jodi amrader package.json e set kora na thakto tahole amder package gulo ar kaj korto na 
+	v. jokhon amra amader project deploy korbo tokhon amra amader project er version ta change korbo 
+	vi. version er port ta change korbo 0.0.0 theke 1.1.1 jekono akta number set kore dibo 
+
+5. Index.html ==> aita hoitece amder root file . Thist the starting point of my application. amra konto page reload dibe na amar just akta moduel change hoitece . div er moddey akta id dewa ace app name jokho jokhon amra akta page theke onno akta page e jaitece tokhon amader oi moduel ta sudhu change hoitece  ...... aita vite amay baniye dice aita niye tension korar kono  karon nei . 
+
+6. gitignore ==> aita hoitece amra jokhon amder code gulo github e push kori tokhon kon kono code gulo github e jabe or jabena segula aikhan theke amra thik  kore dibo 
+
+::::::::::SRC DIRECTORY ::::::::::::::::::::::
+7. src ==> source amder ki ki jinish gulo toyri kore diyece segula amra ektu dekhi  
+	i. assets name akta folder toyri kore diyece 
+	ii. component name akta folder toyri kore diyece 
+	iii. App.vue name akta vue file toyri kore diyece 
+	iv. main.js name akta file toyri kore diyece 
+	v. style.css name akta file toyri kore diyece 
+
+
+7.iv) main.js hoitece amader vue.js er main root point. jei ginish gulo amader akta ei kaje dibe seigula main.js er vitore import kora ace Example: stye.css kiinto import kora ace 
+
+8. iii. vue.js er main kaj karbar amader ai Vue.js file theke hoitece 
+
+9. App.vue te amra amader code likbo template tag er moody 
+
+
+
+10 .  assets er moddey amra image name akta folder raklam icon thake amra assets er moddey folder e rekhe dibo 
+  i.  global css gulo amra assets folder moddey css name akta folder banabo seikhane rekhe dibo (style.css)
+  ii. 	 src diretory er moody ami page name akta folder create korlam seitar moddey amra page rakbo akta page banalam homePage.vue 
+
+  iii. abar ami akta component banabo components => appNavbar.vue
+
+::::::::::SRC DIRECTORY ::::::::::::::::::::::
+
+
+11. public 
+	i. amra source er vitore image gulo na rekehe chaile ami public er moddy rakte pari
+
+
+	:::::::::::::::::::::::BASIC STRACTURE END:::::::::::::::::::::::::::
+
+
+
+
+
+
+	HOW TO MAKE COMPONENT 
+		1. homePage.vue 
+			<script setup></script>  ==>javascript
+script er moddey setup likle je kaj hoy seita hoitece 
+	1. ami sorasori variable likte partecei + function likte parteci + dynamic component niye kaj korte parteci +
+
+
+
+			<template></template>  ==> main markup
+
+
+			<style scoped></style> ==> css
+			syle er moddey scoped likhar karon hoitece amra ai component er jonno jodi alada style dite cai tahole sei styletai only ai component e hobe onno component e hobe na
